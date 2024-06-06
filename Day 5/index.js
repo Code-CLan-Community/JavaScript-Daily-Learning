@@ -9,9 +9,9 @@
 
 a = 13;
 
-x = a>10;
-y = a%2 == 0;
-console.log(x&&y);
+x = a>10;  
+y = a%2 == 0; 
+console.log(x&&y); 
 // Truth Table of Logical OR ,And
 
 //          &&  ||
@@ -21,8 +21,13 @@ console.log(x&&y);
 // t  t     t   t
 
 
+
 // Falsey Values
 
 //  0  None undefined "" false
 
-console.log("hello" && null);
+// console.log("hello" && null);
+
+
+// if(10 >11 && 9<13)
+// console.log();

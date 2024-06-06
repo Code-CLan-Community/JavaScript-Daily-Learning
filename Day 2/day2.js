@@ -1,6 +1,6 @@
 // var/let/const
 // variable name/ contaoner name 
-// assignment opertor
+// assignment opertor 
 // value 
 
 // ex - var age = 39

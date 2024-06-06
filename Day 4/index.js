@@ -4,27 +4,26 @@
 // Shorthand --> += -= /= %= **=
 // (unaray) Inc/dec  ++ --
 
-
 // (Binary) Arthmetic --> + - / * % **
 
-let n1 =6,n2=2, op=null;
-op = n1**n2;
-console.log(op);
+// let n1 =6,n2=2, op=null;
+// op = n1**n2;
+// console.log(op);
 
-op = n1+n2;
-console.log(op);
+// op = n1+n2;
+// console.log(op);
 
-op = n1-n2;
-console.log(op);
+// op = n1-n2;
+// console.log(op);
 
-op = n1*n2;
-console.log(op);
+// op = n1*n2;
+// console.log(op);
 
-op = n1/n2;
-console.log(op);
+// op = n1/n2;
+// console.log(op);
 
-op = n1%n2;
-console.log(op);
+// op = n1%n2;
+// console.log(op);
 
 // Shorthand --> += -= /= %= **= *=
 
@@ -66,3 +65,8 @@ console.log(k); // output will be 12 but in memory it will incremented by 1.
 // 2. Pre Increment (--i, ++k, ++d)
 
 // it updates the data and  then assign to the variable. 
+
+a =10;
+
+
+++a;
