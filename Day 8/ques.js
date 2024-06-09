@@ -34,7 +34,7 @@ alert(`Your name is ${Name} and you have scored ${score} with ${percent.toFixed(
 let t1 = +prompt("Enter Temperature in F");
 alert(`Temperature in Celcius is ${F-32}`);
 
-wap to calculate the simple intrest ?
+// wap to calculate the simple intrest ?
 
 let p = +prompt("Principal");
 let r = +prompt("Rate");
@@ -48,19 +48,19 @@ alert(`Simple Intrest will be ${Si.toFixed(2)}`);
 // output : congrulations Mr. ABC you can vote
 // failure output: Oh sorry Mrs. Abc can not vote
 
-let Name = prompt("Enter Your Name");
+let Name1 = prompt("Enter Your Name");
 let Gen = prompt("Enter your Gender (M/F) ");
 let age = +prompt("Enter your age in digits ");
 
 if(age>=18){
     if(Gen=="M")
-        alert(`Congrulations Mr. ${Name} are able to vote`);
+        alert(`Congrulations Mr. ${Name1} are able to vote`);
     else
-        alert(`Congrulations Mrs. ${Name} are able to vote`);
+        alert(`Congrulations Mrs. ${Name1} are able to vote`);
 }
 else{
     if(Gen=="M")
-        alert(`Oops!, Mr. ${Name} are not able to vote`);
+        alert(`Oops!, Mr. ${Name1} are not able to vote`);
     else
-        alert(`Oops!, Mrs. ${Name} are not able to vote`);
+        alert(`Oops!, Mrs. ${Name1} are not able to vote`);
 }
