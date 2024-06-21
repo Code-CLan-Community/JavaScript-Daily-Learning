@@ -32,6 +32,17 @@ let s =  "Hello World!";
 
 //console.log(String.raw`http:\\127.0.0.1:5500\new\tab`);
 
+//string method
+
+s = "Hello World";
+
+console.log(s.length);  //.property / .method()
+console.log(s.toUpperCase());
+console.log(s.toLowerCase());
+console.log(s.replace("World", "Universe"));
+console.log(s.indexOf("World"));
+console.log(s.concat("good morning", " Have a nice day!"));
+
 
 
 

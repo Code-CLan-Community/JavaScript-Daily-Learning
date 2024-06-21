@@ -4,8 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .slider {
+            width: 200px;
+            margin: 20px 0;
+        }
+        .toggle-container {
+            display: flex;
+            gap: 10px;
+        }
+            .toggle-button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .off-button {
+            background-color: rgb(243, 241, 241);
+        }
+        .on-button {
+            background-color: rgb(236, 245, 236);
+        }
+
+        .off-button:active{
+            background-color:red;
+        }
+        .on-button:active{
+            background-color:green;
+        }
+
+    </style>
 </head>
 <body>
-    <script src="./quest.js"></script>
+    <input type="range" class="slider" id="slider1" min="0" max="100" value="50">
+    <input type="range" class="slider" id="slider2" min="0" max="100" value="50">
+
+    <div class="toggle-container">
+        <button class="toggle-button off-button">OFF</button>
+        <button class="toggle-button on-button" >ON</button>
+    </div>
 </body>
 </html>
