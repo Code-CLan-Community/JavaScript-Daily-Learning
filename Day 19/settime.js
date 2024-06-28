@@ -19,6 +19,4 @@ let userapi = `https://jsonplaceholder.typicode.com/users`;
 fetch(userapi)
     .then((e) => e.json())
     .then((r) => console.log(r))
-    .catch((err) => console.log(err))
-
-
+    .catch((err) => console.log(err));
