@@ -1,5 +1,5 @@
 // var/let/const
-// variable name/ contaoner name 
+// variable name/ container name 
 // assignment opertor 
 // value 
 
