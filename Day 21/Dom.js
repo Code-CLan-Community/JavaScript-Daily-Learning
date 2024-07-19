@@ -22,3 +22,14 @@
 body.style.backgroundColor = "red";
 // heading1.style.color ="red";
 // heading1.style.font ="serif";
+
+function randomcolor(){
+    return Math.floor(Math.random()*256);
+}
+
+body.style.backgroundColor=`rgb(${randomcolor()},${randomcolor()},${randomcolor()},${randomcolor()})`;
+
+
+setInterval(()=>{
+body.style.backgroundColor=`rgb(${randomcolor()},${randomcolor()},${randomcolor()},${randomcolor()})`;
+},250);
